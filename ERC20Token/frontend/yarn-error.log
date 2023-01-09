@@ -1,0 +1,74 @@
+Arguments: 
+  E:\Software\nodejs\node.exe C:\Users\Nader\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @web3-react/core
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;E:\Software\Python\Scripts\;E:\Software\Python\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Rigetti Computing\Forest SDK for Windows\;E:\Software\gcc\bin;C:\Program Files\Wolfram Research\WolframScript\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;E:\Software\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Geth;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;E:\PuTTy\;C:\Users\Nader\AppData\Local\Microsoft\WindowsApps;E:\Software\LaTex\bin\win32;;E:\Software\PyCharm\PyCharm 2018.3.5\bin;;C:\Users\Nader\AppData\Roaming\npm;E:\Software\pycharm\PyCharm Community Edition 2022.2.3\bin;;E:\Software\IntelliJ IDEA\IntelliJ IDEA 2022.2.1\bin;;C:\Users\Nader\.dotnet\tools;E:\React\App\myFirstToken\node_modules\.bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Client network socket disconnected before secure TLS connection was established
+      at connResetException (node:internal/errors:704:14)
+      at TLSSocket.onConnectEnd (node:_tls_wrap:1590:19)
+      at TLSSocket.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "@types/jest": "^27.5.2",
+      "@types/node": "^16.18.11",
+      "@types/react": "^18.0.26",
+      "@types/react-dom": "^18.0.10",
+      "@web3-react/core": "^6.1.9",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1",
+      "typescript": "^4.9.4",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
