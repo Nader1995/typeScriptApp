@@ -1,16 +1,15 @@
-import { ReactElement } from 'react';
-import React from 'react';
-import ConnectToMetaMaskPro from './components/token';
-import './App.css';
 
-function App(): ReactElement {
+import ConnectToMetaMaskProEdge from "./components/connectToMetaMaskProEdge";
+
+import React from 'react';
+
+function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-      <ConnectToMetaMaskPro />
-      </header>
-    </div>
-  );
+      <div>
+          <ConnectToMetaMaskProEdge/>
+      </div>
+      );
 }
 
 export default App;
